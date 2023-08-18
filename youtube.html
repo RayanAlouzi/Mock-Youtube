@@ -13,8 +13,7 @@
           margin-bottom: 0px;
         }
         .thumbnail{
-            width: 300px;
-            display: block;
+            width:100%;
             margin-bottom: 15px;
         }
         .search-bar{
@@ -28,21 +27,12 @@
           line-height: 20px;
           margin-bottom: 12px;
         }
-        .video-preview{
-          width:300px;
-          display:inline-block;
-          vertical-align: top;
-          margin-right: 15px;
-        }
-        .channel-pfp {
-          display:inline-block;
-          width:50px;
-          vertical-align: top;
+        .video-info-grid{
+          display:grid;
+          grid-template-columns: 50px 1fr;
         }
         .video-info{
-          display: inline-block;
-          width: 200px;
-          font-weight: 500;
+          margin-left: 5px;
         }
         .pfp{
           width:100%;
@@ -56,53 +46,153 @@
         .video-author{
           margin-bottom: 4px;
         }
+        .video-grid{
+          display:grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 16px;
+          row-gap: 40px;
+        }
       </style>
     </head>
     <body>
       <input class="search-bar" type="textbox" placeholder="Search">
-
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail" src="thumnails/thumbnail-1.webp">
-        </div>
-        <div>
-          <div class="channel-pfp">
-            <img class="pfp" src="channelpfps/mkbhdpfp.jpeg">
-          </div>
-          <div class="video-info">
-            <p class= 'video-title'>
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-    
-            <p class="video-author">Marques Brownlee</p>
-    
-            <p class="video-stats">3.4M views &#183; 6 months ago</p>
-          </div>
-          
-          
-        </div>
-        
-      </div>
-        
+      <div class="video-grid">
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumnails/thumbnail-2.webp">
+            <img class="thumbnail" src="thumnails/thumbnail-1.webp">
           </div>
-          <div>
+          <div class="video-info-grid">
             <div class="channel-pfp">
-              <img class="pfp" src="channelpfps/markpfp.jpeg">
+              <img class="pfp" src="channelpfps/mkbhdpfp.jpeg">
             </div>
             <div class="video-info">
               <p class= 'video-title'>
                 Talking Tech and AI with Google CEO Sundar Pichai!
               </p>
       
-              <p class="video-author">Markiplier</p>
+              <p class="video-author">Marques Brownlee</p>
       
-              <p class="video-stats">19M views &#183; 4 years ago</p>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
             </div>
             
             
           </div>
+          
+        </div>
+          
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumnails/thumbnail-2.webp">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-pfp">
+                <img class="pfp" src="channelpfps/markpfp.jpeg">
+              </div>
+              <div class="video-info">
+                <p class= 'video-title'>
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+        
+                <p class="video-author">Markiplier</p>
+        
+                <p class="video-stats">19M views &#183; 4 years ago</p>
+              </div>
+              
+              
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <img class="thumbnail" src="thumnails/thumbnail-1.webp">
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-pfp">
+                <img class="pfp" src="channelpfps/mkbhdpfp.jpeg">
+              </div>
+              <div class="video-info">
+                <p class= 'video-title'>
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+        
+                <p class="video-author">Marques Brownlee</p>
+        
+                <p class="video-stats">3.4M views &#183; 6 months ago</p>
+              </div>
+              
+              
+            </div>
+            
+          </div>
+            
+            <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="thumnails/thumbnail-2.webp">
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-pfp">
+                  <img class="pfp" src="channelpfps/markpfp.jpeg">
+                </div>
+                <div class="video-info">
+                  <p class= 'video-title'>
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                  </p>
+          
+                  <p class="video-author">Markiplier</p>
+          
+                  <p class="video-stats">19M views &#183; 4 years ago</p>
+                </div>
+                
+                
+              </div>
+            </div>
+
+            <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="thumnails/thumbnail-1.webp">
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-pfp">
+                  <img class="pfp" src="channelpfps/mkbhdpfp.jpeg">
+                </div>
+                <div class="video-info">
+                  <p class= 'video-title'>
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                  </p>
+          
+                  <p class="video-author">Marques Brownlee</p>
+          
+                  <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+                
+                
+              </div>
+              
+            </div>
+              
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                  <img class="thumbnail" src="thumnails/thumbnail-2.webp">
+                </div>
+                <div class="video-info-grid">
+                  <div class="channel-pfp">
+                    <img class="pfp" src="channelpfps/markpfp.jpeg">
+                  </div>
+                  <div class="video-info">
+                    <p class= 'video-title'>
+                      Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+            
+                    <p class="video-author">Markiplier</p>
+            
+                    <p class="video-stats">19M views &#183; 4 years ago</p>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+      </div>
+      
+          
     </body>
 </html>
