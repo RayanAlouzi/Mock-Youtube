@@ -1,0 +1,14 @@
+.left-section{
+    background-color: lightblue;
+}
+.center-section{
+    background-color: lightpink;
+}
+.right-section{
+    background-color: lightblue;
+}
+.header{
+    height: 55px;
+    display:flex;
+    flex-direction: row;
+}
