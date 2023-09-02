@@ -1,0 +1,7 @@
+.sidebar{
+    background-color: green;
+    position:fixed;
+    top:55px;
+    left:0;
+    bottom: 0;
+}
